@@ -51,6 +51,38 @@
         .active {
             display: block;
         }
+        .sobre-mi-contenido {
+            display: flex;
+            align-items: center;
+        }
+        .sobre-mi-contenido img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .sobre-mi-texto {
+            line-height: 1.8;
+        }
+        .contacto {
+            margin-top: 20px;
+        }
+        .contacto a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #3498db;
+        }
+        .contacto a:hover {
+            text-decoration: underline;
+        }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
         footer {
             background-color: #fff;
             text-align: center;
@@ -59,13 +91,6 @@
             width: 100%;
             bottom: 0;
             box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -84,7 +109,20 @@
     </nav>
     <div id="sobre-mi" class="tab-content active">
         <h2>Sobre Mí</h2>
-        <p>Economista con experiencia en investigación y análisis de datos. He trabajado en la creación de informes macroeconómicos utilizando herramientas de visualización de datos y tengo conocimientos en Python y R. Mi objetivo es especializarme en ciencia de datos, enfocándome en machine learning e inteligencia artificial, aplicados al sector fintech y financiero.</p>
+        <div class="sobre-mi-contenido">
+            <img src="images/foto.jpg" alt="Foto de Daniel Herrera">
+            <div class="sobre-mi-texto">
+                <p>Economista con experiencia en investigación y análisis de datos. He trabajado en la creación de informes macroeconómicos utilizando herramientas de visualización de datos y tengo conocimientos en Python y R. Mi objetivo es especializarme en ciencia de datos, enfocándome en machine learning e inteligencia artificial, aplicados al sector fintech y financiero.</p>
+                <div class="contacto">
+                    <p><strong>Ec. Daniel Herrera R.</strong></p>
+                    <p>Email: <a href="mailto:dherrerarubio@gmail.com">tuemail@example.com</a></p>
+                    <a href="https://github.com/DanielHre" target="_blank">GitHub</a>
+                    <a href="https://www.kaggle.com/ecdanielherrera" target="_blank">Kaggle</a>
+                    <a href="https://x.com/DanielEcoData" target="_blank">X</a>
+                    <a href="https://www.linkedin.com/in/daniel-herrera-rubio/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="proyectos" class="tab-content">
         <h2>Proyectos Destacados</h2>
@@ -96,31 +134,38 @@
     </div>
     <div id="contacto" class="tab-content">
         <h2>Contacto</h2>
-        <p>Puedes contactarme a través de <a href="mailto:tuemail@example.com">tuemail@example.com</a> o visitar mi perfil de <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a>.</p>
+        <p>Puedes contactarme a través de <a href="mailto:tuemail@example.com">tuemail@example.com</a> o visitar mi perfil de <a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>.</p>
     </div>
     <div id="blog" class="tab-content">
         <h2>Blog</h2>
         <div class="blog-post">
             <h3>Título de la Entrada 1</h3>
             <p>Fecha de publicación: 01/01/2025</p>
+            <img src="images/image1.jpg" alt="Imagen de la Entrada 1">
             <p>Extracto de la entrada...</p>
             <a href="#">Leer más</a>
         </div>
-        <!-- Añade más entradas del blog según sea necesario -->
+        <div class="blog-post">
+            <h3>Título de la Entrada 2</h3>
+            <p>Fecha de publicación: 15/02/2025</p>
+            <img src="images/image2.jpg" alt="Imagen de la Entrada 2">
+            <p>Extracto de la segunda entrada del blog. Un breve resumen sobre el contenido del artículo.</p>
+            <a href="#">Leer más</a>
+        </div>
     </div>
+
     <footer>
-        <p>&copy; 2025 Daniel Herrera. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Daniel Herrera - Todos los derechos reservados.</p>
     </footer>
+
     <script>
         function showTab(event, tabId) {
             event.preventDefault();
-            // Ocultar todas las secciones de contenido
-            var contents = document.getElementsByClassName('tab-content');
-            for (var i = 0; i < contents.length; i++) {
-                contents[i].classList.remove('active');
+            var tabs = document.getElementsByClassName("tab-content");
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
             }
-            // Mostrar la sección seleccionada
-            document.getElementById(tabId).classList.add('active');
+            document.getElementById(tabId).classList.add("active");
         }
     </script>
 </body>
