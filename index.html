@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Daniel Herrera, economista y data scientist con experiencia en análisis de datos, machine learning y visualización aplicada a mercados financieros.">
     <title>Ec. Daniel Herrera - Data Scientist</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
@@ -20,132 +21,142 @@
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            width: 100%;
-            position: fixed;
-            top: 0;
-            z-index: 1000;
-            transition: all 0.3s;
         }
-        .header-container {
+        nav {
+            background-color: #415a77;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1100px;
-            margin: 0 auto;
+            justify-content: center;
+            padding: 10px 0;
         }
-        .header-title {
-            text-align: left;
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
         }
-        .social-icons {
-            font-size: 1.5rem;
-        }
-        .social-icons a {
+        nav ul li a {
+            text-decoration: none;
             color: #fff;
-            margin-left: 15px;
-            transition: all 0.3s;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s;
         }
-        .social-icons a:hover {
-            color: #fca311;
-        }
-        .language-switch {
-            position: absolute;
-            top: 20px;
-            right: 30px;
+        nav ul li a:hover {
+            background-color: #778da9;
+            border-radius: 5px;
         }
         .container {
             max-width: 1100px;
-            margin: 140px auto 40px;
+            margin: 40px auto;
             padding: 20px;
             background: white;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .about-container {
+        .profile {
             display: flex;
             align-items: center;
             gap: 20px;
         }
-        .about-container img {
-            width: 150px;
+        .profile img {
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
+            border: 3px solid #415a77;
         }
-        .experience, .skills {
+        .contacto a {
+            text-decoration: none;
+            color: #1b263b;
+            font-weight: bold;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .contacto a:hover {
+            color: #4caf50;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
             margin-top: 20px;
-            padding: 20px;
-            background: linear-gradient(135deg, #1b263b, #415a77);
-            color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
-        .experience h2, .skills h2 {
-            color: #fca311;
+        .skill {
+            background: #4caf50;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
         }
         footer {
-            text-align: center;
-            padding: 20px;
             background: #1b263b;
             color: white;
-            margin-top: 20px;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
         }
         @media (max-width: 768px) {
-            .about-container {
+            .profile {
                 flex-direction: column;
                 text-align: center;
+            }
+            nav {
+                flex-direction: column;
+                align-items: center;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <div class="header-title">
-                <h1>Ec. Daniel Herrera - Data Scientist</h1>
-                <p>Economista | Analista de Datos | Programador en Python y R</p>
-            </div>
-            <div class="social-icons">
-                <a href="https://linkedin.com/in/danielherrera" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/danielherrera" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/danielherrera" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                <a href="https://www.kaggle.com/danielherrera" target="_blank"><i class="fab fa-kaggle"></i></a>
-            </div>
-        </div>
-        <div class="language-switch">
-            <button onclick="switchLanguage()">En / Es</button>
-        </div>
+        <h1>Ec. Daniel Herrera - Data Scientist</h1>
+        <p>Economista | Analista de Datos | Programador en Python y R</p>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre Mí</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
     <div class="container" id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <div class="about-container">
-            <img src="perfil.jpg" alt="Foto de Daniel Herrera">
-            <p>Economista con experiencia en estudios financieros y ciencia de datos.</p>
+        <div class="profile">
+            <img src="images/foto.jpg" alt="Foto de Daniel Herrera">
+            <div>
+                <h2>Sobre Mí</h2>
+                <p>Economista con experiencia en estudios financieros y ciencia de datos. Especializado en análisis de datos, machine learning y visualización aplicada a mercados financieros y fintech.</p>
+                <p>Actualmente, consultor en estudios económicos-financieros.</p>
+            </div>
         </div>
     </div>
-    <div class="container experience" id="experiencia">
-        <h2>Experiencia Profesional</h2>
-        <ul>
-            <li><strong>Docente Universitario</strong> - Universidad Nacional Mayor de San Marcos (2022 - Actualidad)</li>
-            <li><strong>Consultor en Ciencia de Datos</strong> - Independiente (2020 - Actualidad)</li>
-            <li><strong>Analista Económico</strong> - Banco Central de Reserva del Perú (2018 - 2020)</li>
-        </ul>
-    </div>
-    <div class="container skills" id="habilidades">
+    <div class="container" id="habilidades">
         <h2>Habilidades</h2>
-        <ul>
-            <li>Programación en Python y R</li>
-            <li>Modelado econométrico y financiero</li>
-            <li>Machine Learning y Ciencia de Datos</li>
-            <li>Visualización de datos con Power BI y Tableau</li>
-        </ul>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">R</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Econometría</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Análisis Financiero</span>
+        </div>
+    </div>
+    <div class="container" id="contacto">
+        <h2>Contacto</h2>
+        <p>
+            <a href="mailto:dherrerarubio@gmail.com" aria-label="Enviar un correo a Daniel Herrera"><i class="fas fa-envelope"></i> dherrerarubio@gmail.com</a>
+        </p>
+        <p>
+            <a href="https://github.com/DanielHre" target="_blank" aria-label="Perfil en GitHub"><i class="fab fa-github"></i> GitHub</a> | 
+            <a href="https://www.kaggle.com/ecdanielherrera" target="_blank" aria-label="Perfil en Kaggle"><i class="fab fa-kaggle"></i> Kaggle</a> | 
+            <a href="https://x.com/DanielEcoData" target="_blank" aria-label="Perfil en X"><i class="fab fa-twitter"></i> X</a> | 
+            <a href="https://www.linkedin.com/in/daniel-herrera-rubio/" target="_blank" aria-label="Perfil en LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </p>
     </div>
     <footer>
         <p>&copy; 2025 Daniel Herrera - Todos los derechos reservados.</p>
     </footer>
-    <script>
-        function switchLanguage() {
-            alert("Funcionalidad de cambio de idioma aún en desarrollo");
-        }
-    </script>
 </body>
 </html>
-
-
