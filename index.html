@@ -11,8 +11,9 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #e8f1f2;
             color: #333;
+            transition: background-color 0.3s ease-in-out;
         }
         header {
             background-color: #1b263b;
@@ -20,12 +21,54 @@
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .social-icons {
+            position: absolute;
+            top: 50%;
+            right: 100px;
+            transform: translateY(-50%);
+        }
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #778da9;
+        }
+        .language-toggle {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background: none;
+            border: 2px solid #fff;
+            color: #fff;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .language-toggle:hover {
+            background: #778da9;
         }
         nav {
             background-color: #415a77;
             display: flex;
             justify-content: center;
             padding: 10px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: all 0.3s ease-in-out;
+            z-index: 1000;
+        }
+        nav.scrolled {
+            padding: 5px 0;
         }
         nav ul {
             list-style: none;
@@ -46,11 +89,15 @@
         }
         .container {
             max-width: 1100px;
-            margin: 40px auto;
+            margin: 80px auto 40px;
             padding: 20px;
             background: white;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
         }
         .profile {
             display: flex;
@@ -116,26 +163,42 @@
             }
         }
     </style>
+    <script>
+        function toggleLanguage() {
+            const elements = document.querySelectorAll("[data-es]");
+            elements.forEach(el => {
+                const temp = el.innerText;
+                el.innerText = el.getAttribute("data-en");
+                el.setAttribute("data-en", temp);
+            });
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Ec. Daniel Herrera - Data Scientist</h1>
-        <p>Economista | Analista de Datos | Programador en Python y R</p>
+        <h1 data-es="Ec. Daniel Herrera - Data Scientist" data-en="Ec. Daniel Herrera - Científico de Datos">Ec. Daniel Herrera - Data Scientist</h1>
+        <p data-es="Economista | Analista de Datos | Programador en Python y R" data-en="Economist | Data Analyst | Python and R Programmer">Economista | Analista de Datos | Programador en Python y R</p>
+        <div class="social-icons">
+            <a href="https://github.com/DanielHerreraRubio" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.kaggle.com/ecdanielherrera" target="_blank"><i class="fab fa-kaggle"></i></a>
+            <a href="https://x.com/EcDanielHerrera" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-herrera-rubio/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <button class="language-toggle" onclick="toggleLanguage()">ES/EN</button>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Sobre Mí</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html" data-es="Sobre Mí" data-en="About Me">Sobre Mí</a></li>
+            <li><a href="proyectos.html" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+            <li><a href="blog.html" data-es="Blog" data-en="Blog">Blog</a></li>
         </ul>
     </nav>
     <div class="container" id="sobre-mi">
         <div class="profile">
             <img src="images/foto.jpg" alt="Foto de Daniel Herrera">
             <div>
-                <h2>Sobre Mí</h2>
-                <p>Economista con experiencia en estudios financieros y ciencia de datos. Especializado en análisis de datos, machine learning y visualización aplicada a mercados financieros y fintech.</p>
-                <p>Actualmente, consultor en estudios económicos-financieros.</p>
+                <h2 data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+                <p data-es="Economista con experiencia en estudios financieros y ciencia de datos." data-en="Economist with experience in financial studies and data science.">Economista con experiencia en estudios financieros y ciencia de datos.</p>
             </div>
         </div>
     </div>
