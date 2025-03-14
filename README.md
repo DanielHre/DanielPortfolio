@@ -1,38 +1,5 @@
-# 💡 About me: Ec. Daniel Herrera
+# 🚀 My Web Page!
 
-## 📊 Economist | 📈 Data Science Enthusiast | 🎸 Bass Player Hobbyist
+![image](https://github.com/user-attachments/assets/cdd3af97-bebd-4afa-901e-fe5d2c770ca7)
 
-I am an economist with over seven years of experience in economic and financial consulting. Throughout my career, I have worked on market research, econometric analysis, and financial expertise. Currently, I am focusing on Data Science to apply analytical models and technological tools in business and economic decision-making.
-
----
-
-## 🚀 About Me
-
-- 📌 **Consultant in economic analysis**
-- 🎓 **Bachelor's degree in Economics** from Universidad de Lima ("Outstanding" distinction)
-- 📊 **Specialization in Data Science**
-- 🧠 **Interested in** Machine Learning, time series analysis, and data visualization
-- 🎸 **Hobby:** In my free time, I enjoy playing bass
-
----
-
-## 🛠️ Skills
-
-- **Programming languages:** Python, R
-- **Analysis tools:** Stata, Eviews, SPSS, Power BI
-- **Project management:** Scrum, Kanban
-- **Languages:** Spanish (native), English (advanced)
-
----
-
-## 📂 Featured Projects
-
-Here I will share projects where I apply Data Science to economic, financial problems and other interesting topics. Follow me to see my progress!
-
----
-
-## 📫 Contact
-
-📎 [LinkedIn: Daniel Herrera Rubio](https://www.linkedin.com/in/daniel-herrera-rubio/)
-
-📧 dherrerarubio@gmail.com
+### 13/03/2024 Version
