@@ -1,6 +1,13 @@
 # 🚀 My Web Page! - https://danielhre.github.io/DanielPortfolio/index.html
 
 It's still on progress, so I'll work harder in the next days to get it ready!
+URL: https://danielhre.github.io/DanielPortfolio/index.html
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,html,css" />
+  </a>
+</p>
 
 ### 13/03/2024 Version - Spanish
 ![image](https://github.com/user-attachments/assets/9c1aace3-51e6-453f-95ed-7230e47eadf7)
