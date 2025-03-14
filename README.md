@@ -14,6 +14,6 @@ It's still on progress, so I'll work harder in the next days to get it ready!
 ## Languages used
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,html,css" />
+    <img src="https://skillicons.dev/icons?i=git,html,css"/>
   </a>
 </p>
