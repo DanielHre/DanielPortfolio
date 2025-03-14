@@ -36,5 +36,3 @@ Here I will share projects where I apply Data Science to economic, financial pro
 📎 [LinkedIn: Daniel Herrera Rubio](https://www.linkedin.com/in/daniel-herrera-rubio/)
 
 📧 dherrerarubio@gmail.com
-
-Email: dherrerarubio@gmail.com
