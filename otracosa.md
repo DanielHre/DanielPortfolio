@@ -9,14 +9,21 @@
 
 ---
 
-## 🚀 About Me & 🛠️ Skills  
+## 🚀 About Me  
 
-| 🚀 **About Me** | 🛠️ **Tech Stack & Skills** |
-|---------------|------------------|
-| ✔️ **Economic Consultant** focused on data-driven decision-making | 💻 **Programming:** Python 🐍 | R 📊 |
-| ✔️ **Bachelor’s Degree in Economics** – Universidad de Lima (*Outstanding Distinction*) | 📊 **Data Analysis:** Stata 📈 | Eviews 📉 | SPSS 🔎 | Power BI 📊 |
-| ✔️ **Specialized in Data Science** (Machine Learning, Time Series, Visualization) | 🚀 **Project Management:** Scrum 🏆 | Kanban 📌 |
-| ✔️ **Passionate about AI, finance, and tech innovation** | 🌎 **Languages:** Spanish (Native) 🇪🇸 | English (Advanced) 🇺🇸 |
+✔️ **Economic Consultant** focused on data-driven decision-making  
+✔️ **Bachelor’s Degree in Economics** – Universidad de Lima (*Outstanding Distinction*)  
+✔️ **Specialized in Data Science** (Machine Learning, Time Series, Visualization)  
+✔️ **Passionate about** AI, finance, and tech innovation  
+
+---
+
+## 🛠️ Tech Stack & Skills  
+
+💻 **Programming:** Python 🐍 | R 📊  
+📊 **Data Analysis:** Stata 📈 | Eviews 📉 | SPSS 🔎 | Power BI 📊  
+🚀 **Project Management:** Scrum 🏆 | Kanban 📌  
+🌎 **Languages:** Spanish (Native) 🇪🇸 | English (Advanced) 🇺🇸
 
 ---
 
@@ -27,3 +34,7 @@
 💬 **Let's talk about Data, AI & Economics!**  
 
 ---
+
+### 🌟 *"Data is the new oil, and I’m here to refine it!"* 🚀  
+
+
