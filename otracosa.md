@@ -9,31 +9,14 @@
 
 ---
 
-## 🚀 About Me  
+## 🚀 About Me & 🛠️ Skills  
 
-✔️ **Economic Consultant** focused on data-driven decision-making  
-✔️ **Bachelor’s Degree in Economics** – Universidad de Lima (*Outstanding Distinction*)  
-✔️ **Specialized in Data Science** (Machine Learning, Time Series, Visualization)  
-✔️ **Passionate about** AI, finance, and tech innovation  
-
----
-
-## 🛠️ Tech Stack & Skills  
-
-💻 **Programming:** Python 🐍 | R 📊  
-📊 **Data Analysis:** Stata 📈 | Eviews 📉 | SPSS 🔎 | Power BI 📊  
-🚀 **Project Management:** Scrum 🏆 | Kanban 📌  
-🌎 **Languages:** Spanish (Native) 🇪🇸 | English (Advanced) 🇺🇸  
-
----
-
-## 📂 Featured Projects  
-
-🔹 **[Project 1: Economic Forecasting Model](#)** – Applying ML to financial trends  
-🔹 **[Project 2: Data Visualization Dashboard](#)** – Power BI dashboard for economic KPIs  
-🔹 **[Project 3: Market Analysis Report](#)** – Analyzing industry trends with econometrics  
-
-🚀 *Follow me to see my progress!*  
+| 🚀 **About Me** | 🛠️ **Tech Stack & Skills** |
+|---------------|------------------|
+| ✔️ **Economic Consultant** focused on data-driven decision-making | 💻 **Programming:** Python 🐍 | R 📊 |
+| ✔️ **Bachelor’s Degree in Economics** – Universidad de Lima (*Outstanding Distinction*) | 📊 **Data Analysis:** Stata 📈 | Eviews 📉 | SPSS 🔎 | Power BI 📊 |
+| ✔️ **Specialized in Data Science** (Machine Learning, Time Series, Visualization) | 🚀 **Project Management:** Scrum 🏆 | Kanban 📌 |
+| ✔️ **Passionate about AI, finance, and tech innovation** | 🌎 **Languages:** Spanish (Native) 🇪🇸 | English (Advanced) 🇺🇸 |
 
 ---
 
@@ -42,3 +25,5 @@
 🌐 **[LinkedIn: Daniel Herrera Rubio](https://www.linkedin.com/in/daniel-herrera-rubio/)**  
 📩 **Email:** dherrerarubio@gmail.com  
 💬 **Let's talk about Data, AI & Economics!**  
+
+---
